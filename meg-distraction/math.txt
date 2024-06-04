@@ -1,0 +1,5 @@
+Récite-toi mentalement les tables de multiplication. 
+Calcule la suite des carrés des nombres entiers. 
+Décompte à partir de 1000 en soustrayant 7 de manière itérative.
+Compte les lettres de chaque mot d'une phrase que tu inventes et additionne ces valeurs.
+Multiplie mentalement chaque chiffre de ton numéro de téléphone par 2, puis additionne tous les résultats.

@@ -1,0 +1,29 @@
+	type	instruction	run
+0	NoTask	NA	1
+1	list.txt	Récite mentalement les noms de tous les pays que tu connais ainsi que leur capitale.	2
+2	NoTask	NA	3
+3	memory.txt	Essaie d’imaginer les plans de maisons ou d’appartements que tu connais et fais visiter chaque pièce.	4
+4	NoTask	NA	5
+5	math.txt	Multiplie mentalement chaque chiffre de ton numéro de téléphone par 2, puis additionne tous les résultats.	6
+6	NoTask	NA	7
+7	list.txt	Essaie de penser au plus d’animaux possibles.	8
+8	NoTask	NA	9
+9	memory.txt	Rappelle-toi de tes premiers instants dans une nouvelle école ou à un nouveau travail. Souviens-toi des sensations et des personnes rencontrées.	10
+10	NoTask	NA	11
+11	math.txt	Calcule la suite des carrés des nombres entiers.	12
+12	NoTask	NA	13
+13	list.txt	Énumère toutes les professions que tu connais.	14
+14	NoTask	NA	15
+15	memory.txt	Rappelle-toi de visites dans des lieux touristiques (musées, expositions, monuments, zoo, etc).	16
+16	NoTask	NA	17
+17	math.txt	Décompte à partir de 1000 en soustrayant 7 de manière itérative.	18
+18	NoTask	NA	19
+19	list.txt	Énumère toutes les marques que tu connais.	20
+20	NoTask	NA	21
+21	memory.txt	Repense à plusieurs repas au restaurant. Visualise les plats que tu as commandé, la ou les personne(s) qui étaient présentes et les conversations que tu as eues.	22
+22	NoTask	NA	23
+23	math.txt	Récite-toi mentalement les tables de multiplication.	24
+24	NoTask	NA	25
+25	list.txt	Pense à tous les fruits et légumes que tu peux nommer.	26
+26	NoTask	NA	27
+27	memory.txt	Remémore-toi l’histoire de livres ou de films que tu as aimé.	28

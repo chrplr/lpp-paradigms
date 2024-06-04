@@ -1,0 +1,29 @@
+	type	instruction	run
+0	NoTask	NA	1
+1	math.txt	Multiplie mentalement chaque chiffre de ton numéro de téléphone par 2, puis additionne tous les résultats.	2
+2	NoTask	NA	3
+3	memory.txt	Rappelle-toi de tes premiers instants dans une nouvelle école ou à un nouveau travail. Souviens-toi des sensations et des personnes rencontrées.	4
+4	NoTask	NA	5
+5	list.txt	Récite mentalement les noms de tous les pays que tu connais ainsi que leur capitale.	6
+6	NoTask	NA	7
+7	math.txt	Compte les lettres de chaque mot d'une phrase que tu inventes et additionne ces valeurs.	8
+8	NoTask	NA	9
+9	memory.txt	Essaie de te souvenir des moments marquants de l’année dernière.	10
+10	NoTask	NA	11
+11	list.txt	Énumère toutes les professions que tu connais.	12
+12	NoTask	NA	13
+13	math.txt	Calcule la suite des carrés des nombres entiers.	14
+14	NoTask	NA	15
+15	memory.txt	Repense à un voyage marquant que tu as fait. Souviens-toi des lieux que tu as visité, ce que tu as mangé, les activités que tu as faites…	16
+16	NoTask	NA	17
+17	list.txt	Pense à tous les fruits et légumes que tu peux nommer.	18
+18	NoTask	NA	19
+19	math.txt	Récite-toi mentalement les tables de multiplication.	20
+20	NoTask	NA	21
+21	memory.txt	Rappelle-toi de visites dans des lieux touristiques (musées, expositions, monuments, zoo, etc).	22
+22	NoTask	NA	23
+23	list.txt	Énumère toutes les marques que tu connais.	24
+24	NoTask	NA	25
+25	math.txt	Décompte à partir de 1000 en soustrayant 7 de manière itérative.	26
+26	NoTask	NA	27
+27	memory.txt	Essaie de visualiser mentalement tes trajets quotidiens le plus précisément possible.	28
