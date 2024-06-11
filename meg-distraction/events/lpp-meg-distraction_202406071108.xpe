@@ -1,0 +1,13 @@
+#Expyriment 0.10.0 (Python 3.7.4), .xpe-file, coding: UTF-8
+#date: Fri Jun 07 2024 11:08:24
+#sha1: a2302b
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Linux', node='is157877', release='6.5.0-35-generic', version='#35~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue May  7 09:00:52 UTC 2', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+870,stderr,received,'Traceback (most recent call last):'
+871,stderr,received,'  File "lpp-meg-distraction.py", line 45, in <module>'
+871,stderr,received,'    stim = stimuli.Audio(AUDIO)'
+871,stderr,received,'  File "/home/jb278714/.pyenv/versions/experiment/lib/python3.7/site-packages/expyriment/stimuli/_audio.py", line 58, in __init__'
+872,stderr,received,'    self._filename))'
+872,stderr,received,'OSError: The audio file small_chapters/ch1.wav does not exists'

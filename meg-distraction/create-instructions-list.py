@@ -73,7 +73,3 @@ if __name__ == '__main__':
     x["run"] = x.index + 1
     
     x[:N_RUNS].to_csv(sub_file, sep='\t')
-    
-    
-            
-        

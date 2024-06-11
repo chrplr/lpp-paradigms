@@ -1,0 +1,43 @@
+#######################
+jeu. 06 juin 2024 11:10:25 CEST
+
+***************************************************
+***              PROPixx Sequencer              ***
+***************************************************
+>>> Current sequencer is [RGB 120Hz]
+
+Please select one of the following sequencer:
+
+  [0]    > RGB 120Hz (Default)
+  [1]    > RB3D 120Hz
+  [2]    > RGB Quad 480Hz
+  [3]    > RGB 240Hz
+  [4]    > RGB 180Hz
+  [5]    > GREY Quad 1440Hz
+  [6]    > RGB 120Hz Calibrated High Bit Depth
+  [7]    > GREY 3x 360Hz
+  [8]    > GREY 720Hz
+  [9]    > RGB 120HZ [No alternate]
+
+> 
+PROPixx now set to RGB 120Hz sequencer.
+
+***********************************************************
+***              PROPixx LED Intensity                  ***
+***********************************************************
+
+Please select one of the following intensity:
+
+  [0]      100.00% (Default)
+  [1]       50.00%
+  [2]       25.00%
+  [3]       12.50%
+  [4]        6.25%
+
+  [5] Custom RGB #1 (If it is calibrated)
+  [6] Custom RGB #2 (If it is calibrated)
+
+> 
+PROPixx LED Intensity is now set to  12.50%.
+RED =  4.00A GRN =  3.05A BLU =  1.44A 
+
