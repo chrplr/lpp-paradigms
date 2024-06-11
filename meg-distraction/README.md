@@ -6,22 +6,22 @@ This version of the LPP paradigm is an auditory version. In this study, particip
 
 ## Before the experiment
 
-- Check triggers by running: ./ check_partport.py in your terminal, you should observe LED of the trigger box turning on/off alternatively.
-- Generate a new list of mental tasks for the subject by running: python create-inscriptions-list.py --subject x
+- Check triggers by running: ```./ check_partport.py``` in your terminal. You should observe LED of the trigger box turning on/off alternatively.
+- Generate a new list of mental tasks for the subject by running: ```python create-inscriptions-list.py --subject x```
 - Switch on MEG room 
 - Set MEG to 68° position
-- Switch on video projector and run projector script: ./ ProPixxxsetup.sh
+- Switch on video projector and run projector script: ```./ ProPixxxsetup.sh```
 
 ## Running the experiment
 
 In order to run this experiment, you will simply have to run:
 
-. run-lpp-meg.sh
+```. run-lpp-meg.sh```
 
 You will get a menu with 9 sections. Each section represents a recording (2 to 4 runs in a single MEG recording). 
 
 NB: If there is a crash during the experiment, you can run manually the desired run with:
 
-python lpp-meg-distraction.py --subject {subject_number} --run {run_number}
+```python lpp-meg-distraction.py --subject {subject_number} --run {run_number}```
 
 with run_number from 1 to 28. 
