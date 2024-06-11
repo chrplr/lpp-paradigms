@@ -8,7 +8,6 @@ This version of the LPP paradigm is an auditory version. In this study, particip
 
 - Check triggers by running: ```./ check_partport.py``` in your terminal. You should observe LED of the trigger box turning on/off alternatively.
 - Generate a new list of mental tasks for the subject by running: ```python create-instructions-list.py --subject x```
-- Switch on MEG room 
 - Set MEG to 68° position
 - Switch on video projector and run projector script: ```./ ProPixxxsetup.sh```
 
