@@ -15,7 +15,7 @@ INSTRUCTIONS_DIR = Path('instructions')
 QUESTION_LPP = Path('questions_lpp.tsv')
 
 ## Trigger on parallel port (This worked on the 5 th of June 2024)
-#pp = io.ParallelPort('/dev/parport1')
+pp = io.ParallelPort('/dev/parport1')
 
 def send_trigger():
     pp.set_data(255)
@@ -68,7 +68,7 @@ fixcrossGrey.preload()
 
 control.start(exp, subject_id=sub, skip_ready_screen=True)
 
-#pp.set_data(0)
+pp.set_data(0)
 
 exp.add_data_variable_names(['instruction','audio_listening'])
 
@@ -88,14 +88,14 @@ exp.keyboard.wait(misc.constants.K_SPACE)
 clear_screen()
 
 # Core
-#send_trigger()
+send_trigger()
 exp.clock.wait(2000) 
 fixcrossGrey.present(clear=True, update=True)
 exp.clock.wait(5000)
-#send_trigger()
+send_trigger()
 stim.present()
 control.wait_end_audiosystem(process_control_events=True)
-#send_trigger()
+send_trigger()
 
 io.Keyboard.process_control_keys()
 
