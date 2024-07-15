@@ -35,6 +35,10 @@ Problems:
 
 - Check with Theo to make the triggers STI working in MEG
 - For the current acq: make a simple algo for automatically crop (pauses longer than X sec)
+- Have a full pipeline to:
+    - put into BIDS format when new data comes in
+    - check the trigger timings / the total length and assert it's ok
+    - (bonus) run some simple wordfreq decoding / word emb
 
 ### Prio 2
 
