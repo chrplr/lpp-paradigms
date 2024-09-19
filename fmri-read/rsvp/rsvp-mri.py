@@ -5,7 +5,7 @@
 
     Usage: 
 
-     rsvp --chapter 4
+     python rsvp-mri.py --chapter 4
 
     where 4 is the number of the chapter wanted
 """
@@ -14,15 +14,12 @@ import argparse
 from queue import PriorityQueue
 import pandas as pd
 import expyriment
-from expyriment import stimuli, io
+from expyriment import stimuli, io, control
 from expyriment.misc import Clock
 
-# expyriment.control.set_develop_mode(on=True,
-#                                     intensive_logging=False,
-#                                     skip_wait_methods=True)
+#expyriment.control.set_develop_mode(on=True, intensive_logging=False, skip_wait_methods=True)
 
 expyriment.control.defaults.window_mode = False
-
 
 # VERSION CHOICE:
 # Version 1: 350 ms between each word; 300 ms of word + 50 ms of black screen
@@ -103,10 +100,13 @@ if VERSION == 1:
     csv_file = f"./../formatting/v1/run{CHAPTER}_v1_word_0.3_end_sentence_0.2.tsv"
 else:
     csv_file = f"./../formatting/v2/run{CHAPTER}_v2_0.25_0.5.tsv"
-# stimlist = pd.read_csv(args.csv_files[0][0], sep="\t", quoting=True, quotechar="*")
-#stimlist = pd.read_csv(csv_file, sep="\t", quoting=True, quotechar="*")
+
 stimlist = pd.read_csv(csv_file, sep="\t", quoting=True)
 
+def clear_screen():
+    exp.screen.clear()
+    exp.screen.update()
+    
 ###############################
 # expyriment.control.defaults.window_mode = True
 # expyriment.control.defaults.window_size = WINDOW_SIZE
@@ -117,8 +117,8 @@ exp = expyriment.design.Experiment(
     background_colour=BACKGROUND_COLOR,
     foreground_colour=TEXT_COLOR,
     text_size=TEXT_SIZE,
-    text_font=TEXT_FONT,
-)
+    text_font=TEXT_FONT)
+control.defaults.initialize_delay = 0
 expyriment.control.initialize(exp)
 exp._screen_colour = BACKGROUND_COLOR
 kb = expyriment.io.Keyboard()
@@ -127,7 +127,7 @@ kb = expyriment.io.Keyboard()
 ####################################################
 # Prepare the queue of events
 bs = stimuli.BlankScreen(colour=BACKGROUND_COLOR)
-photodiode = stimuli.Rectangle((90*2, 90*2), position=(900, -500))
+photodiode = stimuli.Rectangle((90, 90), position=(900, -500))
 
 fixcrossGreen = stimuli.FixCross(size=(45, 45), line_width=5,
                                  colour=(0, 255, 0))
@@ -174,7 +174,8 @@ def wait_for_MRI_synchro():
 
 expyriment.control.start(subject_id=0, skip_ready_screen=True)
 wait_for_MRI_synchro()
-
+clear_screen()
+exp.clock.wait(3000)
 # init triggers
 # port1.send(data=0)
 
