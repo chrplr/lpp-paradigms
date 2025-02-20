@@ -18,6 +18,7 @@ In order to run this experiment, you will simply have to run:
 We do not run the 9th run (otherwise the experiment lasts more than 2 hours). Here the structure of the experiment with an anatomical MRI in the middle.  
 
 | Run | Duration | Repetitions | Scan number | 
+| :--: | :-----: | :---------: | :---------: |
 | 1 | 9'27 | 264 | 13 |
 | 2 | 10'09 | 285 | 17 |
 | 3 | 11'07 | 314 | 21 |
