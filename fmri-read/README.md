@@ -10,7 +10,7 @@ Each word is presented for 250ms, followed by 50ms of an empty frame. At the end
 
 In order to run this experiment, you will simply have to run:
 
-. run-lpp-rsvp.sh
+`. run-lpp-rsvp.sh`
 
 
 ## This paradigm suits for 7T MRI
@@ -30,6 +30,6 @@ We do not run the 9th run (otherwise the experiment lasts more than 2 hours). He
 | Localizer | 8'17 | 229 | 52 |
 | Anat | 9'38 | / | 28 |
 
-To launch the localizer, go to the `French_sentence_reading_localizer` folder and run :
+To launch the localizer, go to the French_sentence_reading_localizer folder and run :
 
-python french_reading_localizer.py
+`python french_reading_localizer.py`
