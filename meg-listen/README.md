@@ -6,4 +6,4 @@ This version of the LPP paradigm is an auditory version. In this study, particip
 
 In order to run this experiment, you will simply have to run
 
-python leppmeg.py
+`python leppmeg.py`
