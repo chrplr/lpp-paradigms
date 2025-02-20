@@ -15,7 +15,7 @@ In order to run this experiment, you will simply have to run:
 
 ## This paradigm suits for 7T MRI
 
-We do not run the 9th run (otherwise the experiment lasts more than 2 hours). Here the structure of the experiment with an anatomical MRI in the middle.  
+We do not run the 9th run (otherwise the experiment lasts more than 2 hours). Here is the structure of the experiment with an anatomical MRI in the middle.  
 
 | Run | Duration | Repetitions | Scan number | 
 | :--: | :-----: | :---------: | :---------: |
@@ -30,6 +30,6 @@ We do not run the 9th run (otherwise the experiment lasts more than 2 hours). He
 | Localizer | 8'17 | 229 | 52 |
 | Anat | 9'38 | / | 28 |
 
-To launch the localizer, go to the French_sentence_reading_localizer folder and run :
+To launch the localizer, go to the `French_sentence_reading_localizer` folder and run :
 
 python french_reading_localizer.py
