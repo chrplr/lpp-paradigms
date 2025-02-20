@@ -24,23 +24,3 @@ NB: If there is a crash during the experiment, you can run manually the desired 
 ```python lpp-meg-distraction.py --subject {subject_number} --run {run_number}```
 
 with run_number from 1 to 28. 
-
-## TODO:
-
-Problems:
-
-- trigger not saved: harder to crop and to realign
-
-### Prio 1
-
-- Check with Theo to make the triggers STI working in MEG
-- For the current acq: make a simple algo for automatically crop (pauses longer than X sec)
-- Have a full pipeline to:
-    - put into BIDS format when new data comes in
-    - check the trigger timings / the total length and assert it's ok
-    - (bonus) run some simple wordfreq decoding / word emb
-
-### Prio 2
-
-- Add again the syntactic info / POS etc..
-- Remove empty word events
