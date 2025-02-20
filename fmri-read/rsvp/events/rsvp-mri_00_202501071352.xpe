@@ -1,0 +1,87 @@
+#Expyriment 0.10.0 (Python 3.7.4), .xpe-file, coding: UTF-8
+#date: Tue Jan 07 2025 13:52:41
+#sha1: d76602
+#modules: 
+#display: size=(4480, 1440), window_mode=False, open_gl=2
+#os: uname_result(system='Linux', node='is157877', release='6.8.0-49-generic', version='#49~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Nov  6 17:42:15 UTC 2', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+225,design,log,
+#design: #exp: RSVP
+#design: block_cnt,block_id,trial_cnt,trial_id
+225,design,logged,
+225,Experiment,started
+241,Stimulus,presented,2
+1726,Keyboard,received,t,wait_char
+1747,Stimulus,presented,2
+3085,Keyboard,received,t,wait_char
+9797,Stimulus,presented,3
+10100,Stimulus,presented,0
+10120,Stimulus,presented,4
+10383,Stimulus,presented,0
+10404,Stimulus,presented,5
+10691,Stimulus,presented,0
+10721,Stimulus,presented,6
+10996,Stimulus,presented,0
+11016,Stimulus,presented,7
+11294,Stimulus,presented,0
+11322,Stimulus,presented,8
+11597,Stimulus,presented,0
+11622,Stimulus,presented,9
+11905,Stimulus,presented,0
+11915,Stimulus,presented,10
+12197,Stimulus,presented,0
+12222,Stimulus,presented,9
+12496,Stimulus,presented,0
+12522,Stimulus,presented,11
+12797,Stimulus,presented,0
+12815,Stimulus,presented,12
+13096,Stimulus,presented,0
+13123,Stimulus,presented,13
+13395,Stimulus,presented,0
+13423,Stimulus,presented,14
+13696,Stimulus,presented,0
+13712,Stimulus,presented,15
+13998,Stimulus,presented,0
+14023,Stimulus,presented,16
+14294,Stimulus,presented,0
+14313,Stimulus,presented,17
+14594,Stimulus,presented,0
+14613,Stimulus,presented,18
+14896,Stimulus,presented,0
+14913,Stimulus,presented,19
+15194,Stimulus,presented,0
+15213,Stimulus,presented,20
+15495,Stimulus,presented,0
+15513,Stimulus,presented,21
+15795,Stimulus,presented,0
+15812,Stimulus,presented,22
+16093,Stimulus,presented,0
+16115,Stimulus,presented,23
+16394,Stimulus,presented,0
+16892,Stimulus,presented,24
+17198,Stimulus,presented,0
+17213,Stimulus,presented,25
+17498,Stimulus,presented,0
+17514,Stimulus,presented,14
+17797,Stimulus,presented,0
+17812,Stimulus,presented,26
+18100,Stimulus,presented,0
+18113,Stimulus,presented,27
+18397,Stimulus,presented,0
+18427,Stimulus,presented,20
+18690,Stimulus,presented,0
+18712,Stimulus,presented,28
+18991,Stimulus,presented,0
+19012,Stimulus,presented,14
+19293,Stimulus,presented,0
+19312,Stimulus,presented,29
+19592,Stimulus,presented,0
+20092,Stimulus,presented,30
+20397,Stimulus,presented,0
+20412,Stimulus,presented,17
+20413,Experiment,paused
+20427,Stimulus,presented,698
+21121,Keyboard,received,y,wait_char
+21121,Experiment,ended
+21122,Data,saved
+21130,Stimulus,presented,698

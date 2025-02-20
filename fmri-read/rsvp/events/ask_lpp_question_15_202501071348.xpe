@@ -1,0 +1,23 @@
+#Expyriment 0.10.0 (Python 3.7.4), .xpe-file, coding: UTF-8
+#date: Tue Jan 07 2025 13:48:31
+#sha1: 9b618f
+#modules: 
+#display: size=(4480, 1440), window_mode=False, open_gl=2
+#os: uname_result(system='Linux', node='is157877', release='6.8.0-49-generic', version='#49~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Nov  6 17:42:15 UTC 2', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+180,design,log,
+#design: #exp: Le_Petit_Prince_Questions
+#design: block_cnt,block_id,trial_cnt,trial_id
+180,design,logged,
+180,Experiment,started
+276,Stimulus,presented,1
+2237,Keyboard,received,32,wait
+2293,Stimulus,presented,2
+2319,Stimulus,presented,2
+2346,Stimulus,presented,2
+2377,Stimulus,presented,3
+3902,Experiment,paused
+3915,Stimulus,presented,3
+4567,Keyboard,received,y,wait_char
+4567,Experiment,ended
+4583,Stimulus,presented,3

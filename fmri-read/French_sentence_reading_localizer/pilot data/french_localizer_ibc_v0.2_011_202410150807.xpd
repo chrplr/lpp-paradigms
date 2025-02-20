@@ -1,0 +1,17 @@
+#Expyriment 0.11.dev5 (Python 3.12.0), .xpd-file, coding: UTF-8
+#date: Tue Oct 15 2024 08:07:05
+#--EXPERIMENT INFO
+#e mainfile: french_localizer_ibc_v0.2.py
+#e sha1: a62889
+#e modules: 
+#e Experiment: First Experiment
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 11
+subject_id,Condition,Onset,Duration
+11,S0,3005,10800
+11,S1,21208,10800
+11,C0,39400,10800
+11,S0,57601,10801
+11,S1,75804,10800
+11,C0,94005,10801

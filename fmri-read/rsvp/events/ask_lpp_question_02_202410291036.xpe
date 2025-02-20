@@ -1,0 +1,30 @@
+#Expyriment 0.10.0 (Python 3.7.4), .xpe-file, coding: UTF-8
+#date: Tue Oct 29 2024 10:36:09
+#sha1: 9b618f
+#modules: 
+#display: size=(1920, 1200), window_mode=False, open_gl=2
+#os: uname_result(system='Linux', node='is157877', release='6.8.0-47-generic', version='#47~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Oct  2 16:16:55 UTC 2', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+755,design,log,
+#design: #exp: Le_Petit_Prince_Questions
+#design: block_cnt,block_id,trial_cnt,trial_id
+755,design,logged,
+755,Experiment,started
+878,stderr,received,'Traceback (most recent call last):'
+878,stderr,received,'  File "ask_lpp_question.py", line 48, in <module>'
+878,stderr,received,'    stimuli.TextScreen("Question", question_text, text_size=60, position=(SHIFT_CENTER, 0)).present()'
+878,stderr,received,'  File "/home/jb278714/.pyenv/versions/experiment/lib/python3.7/site-packages/expyriment/stimuli/_visual.py", line 1188, in present'
+889,stderr,received,'    self.preload(inhibit_ogl_compress=True)'
+889,stderr,received,'  File "/home/jb278714/.pyenv/versions/experiment/lib/python3.7/site-packages/expyriment/stimuli/_visual.py", line 1076, in preload'
+890,stderr,received,'    self._get_surface(),'
+890,stderr,received,'  File "/home/jb278714/.pyenv/versions/experiment/lib/python3.7/site-packages/expyriment/stimuli/_visual.py", line 495, in _get_surface'
+891,stderr,received,'    tmp = self._create_surface()'
+891,stderr,received,'  File "/home/jb278714/.pyenv/versions/experiment/lib/python3.7/site-packages/expyriment/stimuli/_textscreen.py", line 493, in _create_surface'
+892,stderr,received,'    surface.blit(box._get_surface(),'
+893,stderr,received,'  File "/home/jb278714/.pyenv/versions/experiment/lib/python3.7/site-packages/expyriment/stimuli/_visual.py", line 495, in _get_surface'
+893,stderr,received,'    tmp = self._create_surface()'
+893,stderr,received,'  File "/home/jb278714/.pyenv/versions/experiment/lib/python3.7/site-packages/expyriment/stimuli/_textbox.py", line 347, in _create_surface'
+895,stderr,received,'    self.text_justification)'
+895,stderr,received,'  File "/home/jb278714/.pyenv/versions/experiment/lib/python3.7/site-packages/expyriment/stimuli/_textbox.py", line 421, in render_textrect'
+895,stderr,received,'    "Once word-wrapped," +'
+896,stderr,received,'Exception: Once word-wrapped,the text string was too tall to fit in the rect.'

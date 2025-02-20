@@ -1,0 +1,17 @@
+#Expyriment 0.7.0b~opensesame2 (Revision ; Python 2.7.6), .xpe-file, coding: UTF-8
+#date: Wed Apr 15 2015 16:16:47
+#sha1: 430d13
+#display: size=(800, 600), window_mode=True, opengl=False
+#os: ('Linux', 'is151214', '3.13.0-49-generic', '#83-Ubuntu SMP Fri Apr 10 20:11:33 UTC 2015', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+1011,design,log,
+#design: #exp: First Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+1011,design,logged,
+1011,Experiment,started
+1109,Stimulus,presented,0
+2851241,Experiment,paused
+2851245,Stimulus,presented,821
+2852433,Keyboard,received,y,wait_char
+2852433,Experiment,ended
+2852439,Stimulus,presented,821

@@ -1,0 +1,17 @@
+#Expyriment 0.7.0b~opensesame2 (Revision ; Python 2.7.6), .xpd-file, coding: UTF-8
+#date: Thu Apr 16 2015 11:02:41
+#--EXPERIMENT INFO
+#e mainfile: french_localizer_ibc_v0.1.py
+#e sha1: 2cc4b6
+#e Experiment: First Experiment
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 2
+subject_id,
+2,3406
+2,17803
+2,32601
+2,47409
+2,62207
+2,77005
+2,91804

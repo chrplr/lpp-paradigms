@@ -42,7 +42,7 @@ do
       4) python rsvp-mri.py --chapter 4 --text-size 60;
          python ask_lpp_question.py $subject_id 11 ;;
       5) python rsvp-mri.py --chapter 5 --text-size 60;
-         python ask_lpp_question.py $subject_id 13 ;;
+         python ask_lpp_question.py $subject_id 12 ;;
       6) python rsvp-mri.py --chapter 6 --text-size 60;
          python ask_lpp_question.py $subject_id 15 ;;
       7) python rsvp-mri.py --chapter 7 --text-size 60;

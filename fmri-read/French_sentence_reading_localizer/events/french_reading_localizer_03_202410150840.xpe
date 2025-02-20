@@ -1,0 +1,57 @@
+#Expyriment 0.10.0 (Python 3.7.4), .xpe-file, coding: UTF-8
+#date: Tue Oct 15 2024 08:40:14
+#sha1: 33649b
+#modules: 
+#display: size=(1920, 1200), window_mode=False, open_gl=2
+#os: uname_result(system='Linux', node='is157877', release='6.8.0-45-generic', version='#45~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Sep 11 15:25:05 UTC 2', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+14266,design,log,
+#design: #exp: First Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+14266,design,logged,
+14266,Experiment,started
+14730,Stimulus,presented,2
+17404,Keyboard,received,t,wait_char
+19662,Stimulus,presented,3
+20448,Stimulus,presented,4
+20745,Stimulus,presented,5
+21046,Stimulus,presented,6
+21345,Stimulus,presented,7
+21645,Stimulus,presented,8
+21945,Stimulus,presented,9
+22244,Stimulus,presented,10
+22544,Stimulus,presented,11
+22845,Stimulus,presented,12
+23144,Stimulus,presented,13
+23444,Stimulus,presented,14
+23744,Stimulus,presented,15
+24046,Stimulus,presented,16
+24346,Stimulus,presented,17
+24646,Stimulus,presented,18
+24947,Stimulus,presented,19
+25245,Stimulus,presented,20
+25546,Stimulus,presented,21
+25846,Stimulus,presented,22
+26146,Stimulus,presented,23
+26446,Stimulus,presented,24
+26745,Stimulus,presented,25
+27045,Stimulus,presented,26
+27345,Stimulus,presented,27
+27645,Stimulus,presented,28
+27944,Stimulus,presented,29
+28246,Stimulus,presented,30
+28546,Stimulus,presented,31
+28848,Stimulus,presented,32
+29144,Stimulus,presented,33
+29446,Stimulus,presented,34
+29746,Stimulus,presented,35
+30046,Stimulus,presented,36
+30347,Stimulus,presented,37
+30647,Stimulus,presented,38
+30947,Stimulus,presented,39
+31383,Experiment,paused
+31412,Stimulus,presented,868
+32359,Keyboard,received,y,wait_char
+32359,Experiment,ended
+32361,Data,saved
+32380,Stimulus,presented,868

@@ -1,0 +1,15 @@
+#Expyriment 0.7.0b~opensesame2 (Revision ; Python 2.7.6), .xpe-file, coding: UTF-8
+#date: Wed Apr 15 2015 16:16:31
+#sha1: f37202
+#display: size=(800, 600), window_mode=True, opengl=False
+#os: ('Linux', 'is151214', '3.13.0-49-generic', '#83-Ubuntu SMP Fri Apr 10 20:11:33 UTC 2015', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+2138,design,log,
+#design: #exp: First Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+2138,design,logged,
+2138,Experiment,started
+2141,stderr,received,'Traceback (most recent call last):'
+2141,stderr,received,'  File "MirrorPatterns_Langloc.py", line 44, in <module>'
+2141,stderr,received,'    sequences = [i for i in csv.reader(open(listname))]'
+2141,stderr,received,"IOError: [Errno 2] No such file or directory: 'mirrorpattern_lists/list2.csv'"

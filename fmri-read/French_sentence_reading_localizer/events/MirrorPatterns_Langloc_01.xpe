@@ -1,0 +1,58 @@
+#Expyriment 0.7.0b~opensesame2 (Revision ; Python 2.7.6), .xpe-file, coding: UTF-8
+#date: Wed Apr 15 2015 10:49:59
+#sha1: f37202
+#display: size=(800, 600), window_mode=True, opengl=False
+#os: ('Linux', 'is151214', '3.13.0-49-generic', '#83-Ubuntu SMP Fri Apr 10 20:11:33 UTC 2015', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+2285,design,log,
+#design: #exp: First Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+2285,design,logged,
+2285,Experiment,started
+2313,Stimulus,presented,0
+6469,Keyboard,received,t,wait_char
+9476,Stimulus,presented,1
+9878,Stimulus,presented,2
+10078,Stimulus,presented,3
+10278,Stimulus,presented,4
+10478,Stimulus,presented,5
+10678,Stimulus,presented,6
+10878,Stimulus,presented,7
+11078,Stimulus,presented,8
+11278,Stimulus,presented,9
+11478,Stimulus,presented,10
+11678,Stimulus,presented,11
+11878,Stimulus,presented,12
+12078,Stimulus,presented,13
+12278,Stimulus,presented,14
+12478,Stimulus,presented,15
+12678,Stimulus,presented,16
+12878,Stimulus,presented,17
+13078,Stimulus,presented,18
+13278,Stimulus,presented,19
+13478,Stimulus,presented,20
+13678,Stimulus,presented,21
+13878,Stimulus,presented,22
+14078,Stimulus,presented,23
+14278,Stimulus,presented,24
+14478,Stimulus,presented,25
+14678,Stimulus,presented,26
+14878,Stimulus,presented,27
+15078,Stimulus,presented,28
+15278,Stimulus,presented,29
+15478,Stimulus,presented,30
+15678,Stimulus,presented,31
+15878,Stimulus,presented,32
+16078,Stimulus,presented,33
+16278,Stimulus,presented,34
+16478,Stimulus,presented,35
+16678,Stimulus,presented,36
+16878,Stimulus,presented,37
+17078,Stimulus,presented,38
+23779,Stimulus,presented,1
+29737,Experiment,paused
+29738,Stimulus,presented,226
+30782,Keyboard,received,y,wait_char
+30782,Experiment,ended
+30783,Data,saved
+30787,Stimulus,presented,226

@@ -1,0 +1,15 @@
+#Expyriment 0.7.0b~opensesame2 (Revision ; Python 2.7.6), .xpe-file, coding: UTF-8
+#date: Thu Apr 16 2015 11:02:08
+#sha1: efa0af
+#display: size=(800, 600), window_mode=True, opengl=False
+#os: ('Linux', 'is151214', '3.13.0-49-generic', '#83-Ubuntu SMP Fri Apr 10 20:11:33 UTC 2015', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+1031,design,log,
+#design: #exp: First Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+1031,design,logged,
+1031,Experiment,started
+1034,stderr,received,'Traceback (most recent call last):'
+1034,stderr,received,'  File "french_localizer_ibc_v0.1.py", line 43, in <module>'
+1034,stderr,received,'    listname = os.path.join("french_ibc0", "list1.csv" % exp.subject)'
+1034,stderr,received,'TypeError: not all arguments converted during string formatting'

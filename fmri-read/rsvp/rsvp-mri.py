@@ -18,8 +18,7 @@ from expyriment import stimuli, io, control
 from expyriment.misc import Clock
 
 #expyriment.control.set_develop_mode(on=True, intensive_logging=False, skip_wait_methods=True)
-
-expyriment.control.defaults.window_mode = False
+#expyriment.control.defaults.window_mode = True
 
 # VERSION CHOICE:
 # Version 1: 350 ms between each word; 300 ms of word + 50 ms of black screen
@@ -39,7 +38,7 @@ TEXT_COLOR = (230, 230, 230)  # white but not too white
 BACKGROUND_COLOR = (30, 30, 30)  # black
 WINDOW_SIZE = 1024, 768
 CHAPTER = 1
-FIXED_WORD_DURATION = 200  # Overriding tsv file
+FIXED_WORD_DURATION = 250  # Overriding tsv file
 FIXED_BS_DURATION = 50  # Overriding tsv file
 SPEED = 1
 END_OF_SENTENCE_BLANK = True
@@ -162,7 +161,7 @@ for row in stimlist.itertuples():
 
 # Adding a 3s blackscreen at the end 
 
-end_bs = ((max_onset*1000)+3000)
+end_bs = ((max_onset*1000)+10000)
 events.put((end_bs * SPEED, "", bs))
 
 #############################################################
@@ -174,8 +173,9 @@ def wait_for_MRI_synchro():
 
 expyriment.control.start(subject_id=0, skip_ready_screen=True)
 wait_for_MRI_synchro()
+wait_for_MRI_synchro()
 clear_screen()
-exp.clock.wait(3000)
+exp.clock.wait(6000)
 # init triggers
 # port1.send(data=0)
 
@@ -192,12 +192,16 @@ while not events.empty():
         a.wait(1)
         k = kb.check()
         if k is not None:
-            exp.data.add([a.time, "keypressed,{}".format(k)])
+           exp.data.add([a.time, "keypressed,{}".format(k)])
     # port1.send(data=value_trigger)
     
     if value_trigger != 0:
         stim.present(clear=True)
-        photodiode.present(clear=False)
-
+        #photodiode.present(clear=False)
+        exp.data.add([a.time, stim.text])
     else:
         stim.present(clear=True)
+
+stimuli.TextLine("Run terminé, appuyez sur une touche pour afficher la question", text_size=50, text_colour=(245, 167, 66)).present()
+exp.data.add([a.time, "end"])
+exp.keyboard.wait()
