@@ -1,0 +1,21 @@
+#Expyriment 0.10.0 (Python 3.7.4), .xpe-file, coding: UTF-8
+#date: Fri Mar 14 2025 11:59:29
+#sha1: 63dd4e
+#modules: 
+#display: size=(1920, 1200), window_mode=False, open_gl=2
+#os: uname_result(system='Linux', node='is157877', release='6.12.3-061203-generic', version='#202412060638 SMP PREEMPT_DYNAMIC Fri Dec  6 07:08:51 UTC 2024', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+664,stdout,received,'Warning: Failed to find font Inconsolata.ttf!'
+664,stderr,received,'Traceback (most recent call last):'
+664,stderr,received,'  File "/home/jb278714/.pyenv/versions/experiment/lib/python3.7/site-packages/expyriment/stimuli/_textline.py", line 100, in __init__'
+673,stderr,received,"    with open(self._text_font, 'rb') as f:"
+674,stderr,received,"FileNotFoundError: [Errno 2] No such file or directory: ''"
+674,stderr,received,'During handling of the above exception, another exception occurred:'
+674,stderr,received,'Traceback (most recent call last):'
+674,stderr,received,'  File "rsvp.py", line 113, in <module>'
+674,stderr,received,'    expyriment.control.initialize(exp)'
+674,stderr,received,'  File "/home/jb278714/.pyenv/versions/experiment/lib/python3.7/site-packages/expyriment/control/_experiment_control.py", line 474, in initialize'
+676,stderr,received,'    position=(0, -5))'
+676,stderr,received,'  File "/home/jb278714/.pyenv/versions/experiment/lib/python3.7/site-packages/expyriment/stimuli/_textline.py", line 103, in __init__'
+676,stderr,received,'    raise IOError("Font \'{0}\' not found!".format(text_font))'
+676,stderr,received,"OSError: Font 'Inconsolata.ttf' not found!"

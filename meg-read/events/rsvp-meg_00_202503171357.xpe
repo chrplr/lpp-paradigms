@@ -1,0 +1,7 @@
+#Expyriment 0.10.0 (Python 3.7.4), .xpe-file, coding: UTF-8
+#date: Mon Mar 17 2025 13:57:05
+#sha1: a1ed37
+#modules: 
+#display: size=(4480, 1440), window_mode=False, open_gl=2
+#os: uname_result(system='Linux', node='is157877', release='6.12.3-061203-generic', version='#202412060638 SMP PREEMPT_DYNAMIC Fri Dec  6 07:08:51 UTC 2024', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2

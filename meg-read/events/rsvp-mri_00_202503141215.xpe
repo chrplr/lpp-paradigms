@@ -1,0 +1,18 @@
+#Expyriment 0.10.0 (Python 3.7.4), .xpe-file, coding: UTF-8
+#date: Fri Mar 14 2025 12:15:16
+#sha1: 4e607c
+#modules: 
+#display: size=(1920, 1200), window_mode=False, open_gl=2
+#os: uname_result(system='Linux', node='is157877', release='6.12.3-061203-generic', version='#202412060638 SMP PREEMPT_DYNAMIC Fri Dec  6 07:08:51 UTC 2024', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+1163,design,log,
+#design: #exp: RSVP
+#design: block_cnt,block_id,trial_cnt,trial_id
+1163,design,logged,
+1163,Experiment,started
+1180,Stimulus,presented,2
+5815,Experiment,paused
+5836,Stimulus,presented,698
+6429,Keyboard,received,y,wait_char
+6429,Experiment,ended
+6445,Stimulus,presented,698
